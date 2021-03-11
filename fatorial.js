@@ -1,4 +1,4 @@
-const fatorial = (num)=>{
+export const fatorial = (num)=>{
     const numero = num;
     let resultado=1;
     let count=1;
@@ -10,5 +10,3 @@ const fatorial = (num)=>{
     console.log(resultado);
     return resultado;
 }
-
-fatorial(6);
