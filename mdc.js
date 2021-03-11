@@ -11,5 +11,3 @@ function mdc(num1, num2) {
 
   return num1
 }
-
-console.log('MDC 18 60', mdc(18, 60))
